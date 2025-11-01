@@ -1,23 +1,30 @@
-import logo from './logo.svg';
+import React, { useState, useEffect } from 'react';
+import Home from './pages/Home';
+import { getCoinList } from './services/api';
 import './App.css';
 
 function App() {
+  const [loading, setLoading] = useState(false);
+
+  async function handleRefresh() {
+    setLoading(true);
+    window.location.reload();
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <div>
+      <div className="header">
+        <h1>Crypto Tracker</h1>
+        <p>Real-time cryptocurrency price monitoring</p>
+        <button 
+          onClick={handleRefresh} 
+          className="refresh-btn"
+          disabled={loading}
         >
-          Learn React
-        </a>
-      </header>
+          {loading ? 'Refreshing...' : 'Refresh Data'}
+        </button>
+      </div>
+      <Home />
     </div>
   );
 }
