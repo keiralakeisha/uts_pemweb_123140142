@@ -1,0 +1,89 @@
+.portfolio-calc {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.portfolio-calc h3 {
+  color: #2C5F2D;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.calc-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  padding: 12px;
+  background-color: #F1F8F4;
+  border-radius: 6px;
+}
+
+.coin-title {
+  font-weight: 600;
+  color: #2C5F2D;
+}
+
+.coin-price {
+  color: #757575;
+  font-size: 14px;
+}
+
+.calc-input {
+  margin-bottom: 12px;
+}
+
+.calc-input label {
+  display: block;
+  margin-bottom: 6px;
+  color: #2C5F2D;
+  font-size: 14px;
+}
+
+.calc-input input {
+  width: 100%;
+}
+
+.calc-actions {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.calc-btn {
+  flex: 1;
+  background-color: #C8E6C9;
+  color: #2C5F2D;
+  padding: 10px;
+}
+
+.calc-btn:hover {
+  background-color: #A5D6A7;
+}
+
+.clear-btn {
+  flex: 1;
+  background-color: #F8BBD0;
+  color: #2C5F2D;
+  padding: 10px;
+}
+
+.clear-btn:hover {
+  background-color: #F48FB1;
+}
+
+.calc-result {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: #C8E6C9;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.calc-result strong {
+  color: #2C5F2D;
+  font-size: 18px;
+}
