@@ -6,7 +6,7 @@ UTS Pemrograman Web - Aplikasi tracking harga cryptocurrency real-time
 
 - Nama: Keira Lakeisha Fachra Fuady
 - NIM: 123140142
-- Mata Kuliah: Pemrograman Aplikasi Web
+- Mata Kuliah: Pengembangan Aplikasi Web
 
 ## Deskripsi Project
 
@@ -54,7 +54,7 @@ Aplikasi akan berjalan di http://localhost:3000
 
 ## Deployment
 
-Link aplikasi: [akan diisi setelah deploy]
+Link aplikasi: https://uts-pemweb-123140142.vercel.app/
 
 ## Screenshot
 
