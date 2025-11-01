@@ -80,4 +80,4 @@ Calculator untuk menghitung nilai portfolio
 
 ## Lisensi
 
-Project ini dibuat untuk keperluan UTS Pemrograman Web
+Project ini dibuat untuk keperluan UTS Pengembangan Aplikasi Web
