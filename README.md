@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Cryptocurrency Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+UTS Pemrograman Web - Aplikasi tracking harga cryptocurrency real-time
 
-## Available Scripts
+## Identitas
 
-In the project directory, you can run:
+- Nama: Keira Lakeisha Fachra Fuady
+- NIM: 123140142
+- Mata Kuliah: Pemrograman Aplikasi Web
 
-### `npm start`
+## Deskripsi Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Aplikasi web untuk monitoring harga cryptocurrency secara real-time menggunakan CoinGecko API. Pengguna dapat melihat daftar coin, memfilter berdasarkan harga, melihat chart harga, dan menghitung nilai portfolio.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Fitur
 
-### `npm test`
+1. Tabel list cryptocurrency dengan price, market cap, dan 24h change
+2. Filter cryptocurrency berdasarkan range harga
+3. Detail chart harga cryptocurrency (7 hari)
+4. Portfolio calculator untuk menghitung total value
+5. Refresh data button dengan loading indicator
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Teknologi
 
-### `npm run build`
+- React 18
+- Axios untuk HTTP requests
+- Recharts untuk visualisasi chart
+- CoinGecko API
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Cara Instalasi
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone repository:
+```bash
+git clone https://github.com/keiralakeisha/uts-pemweb-123140142
+cd uts-pemweb-123140142
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Install dependencies:
+```bash
+npm install
+```
 
-### `npm run eject`
+3. Buat file `.env` di root folder dan tambahkan API key:
+```
+REACT_APP_API_KEY=your_api_key_here
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Jalankan aplikasi:
+```bash
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Aplikasi akan berjalan di http://localhost:3000
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Deployment
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Link aplikasi: [akan diisi setelah deploy]
 
-## Learn More
+## Screenshot
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Halaman Utama
+![Home](screenshots/Home.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Tabel cryptocurrency dengan data real-time
 
-### Code Splitting
+### Filter Harga
+![Filter](screenshots/Filter.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Filter cryptocurrency berdasarkan range harga
 
-### Analyzing the Bundle Size
+### Chart Detail
+![Chart](screenshots/Chart.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Chart harga cryptocurrency 7 hari terakhir
 
-### Making a Progressive Web App
+### Portfolio Calculator
+![Portfolio](screenshots/Portfolio.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Calculator untuk menghitung nilai portfolio
 
-### Advanced Configuration
+## Lisensi
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Project ini dibuat untuk keperluan UTS Pemrograman Web
