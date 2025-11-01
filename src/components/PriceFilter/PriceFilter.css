@@ -1,0 +1,49 @@
+.filter-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.filter-container h3 {
+  color: #2C5F2D;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.filter-inputs {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.filter-inputs input {
+  flex: 1;
+}
+
+.filter-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.apply-btn {
+  background-color: #C8E6C9;
+  color: #2C5F2D;
+  flex: 1;
+}
+
+.apply-btn:hover {
+  background-color: #A5D6A7;
+}
+
+.reset-btn {
+  background-color: #F8BBD0;
+  color: #2C5F2D;
+  flex: 1;
+}
+
+.reset-btn:hover {
+  background-color: #F48FB1;
+}
