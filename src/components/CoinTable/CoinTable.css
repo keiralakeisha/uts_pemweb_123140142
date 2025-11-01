@@ -1,0 +1,62 @@
+.table-wrapper {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.coin-table {
+  width: 100%;
+}
+
+.coin-table thead {
+  background-color: #C8E6C9;
+}
+
+.coin-table th {
+  padding: 12px;
+  text-align: left;
+  font-weight: 600;
+  color: #2C5F2D;
+}
+
+.coin-table td {
+  padding: 12px;
+  border-bottom: 1px solid #E8F5E9;
+}
+
+.coin-name {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.symbol {
+  color: #757575;
+  font-size: 12px;
+}
+
+.positive {
+  color: #2E7D32;
+}
+
+.negative {
+  color: #C62828;
+}
+
+.detail-btn {
+  background-color: #F8BBD0;
+  color: #2C5F2D;
+  padding: 6px 16px;
+  font-size: 13px;
+}
+
+.detail-btn:hover {
+  background-color: #F48FB1;
+}
+
+.empty {
+  text-align: center;
+  padding: 40px;
+  color: #757575;
+}
